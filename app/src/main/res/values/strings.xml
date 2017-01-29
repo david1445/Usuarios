@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Usuarios</string>
+    <string name="Nombre">Nombre Completo:</string>
+    <string name="Telefono">Telefono:</string>
+    <string name="Email">e-Mail:</string>
+    <string name="Descripcion">Descripción Contacto:</string>
+    <string name="BotonSig">Siguiente</string>
+    <string name="nombreParametro">Nombre</string>
+    <string name="telefonoParametro">Telefono</string>
+    <string name="emailParametro">Email</string>
+    <string name="descripParametro">Descripcion</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pantalla_confirmar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.davidrmz.usuarios.pantallaConfirmar">
+
+    <TextView
+        android:id="@+id/confirmacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar Datos"
+        android:textSize="@dimen/tamañotxtheader"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/nombreConfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Nombre"
+        android:layout_below="@id/confirmacion"
+        android:textSize="@dimen/tamañotxtheader"
+        />
+    <TextView
+        android:id="@+id/telefonoConfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Telefono"
+        android:layout_below="@id/nombreConfirma"
+        android:textSize="@dimen/tamañotxtheader"
+        />
+    <TextView
+        android:id="@+id/emailConfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:layout_below="@id/telefonoConfirma"
+        android:textSize="@dimen/tamañotxtheader"
+        />
+    <TextView
+        android:id="@+id/descripConfirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Descripcion"
+        android:layout_below="@id/emailConfirma"
+        android:textSize="@dimen/tamañotxtheader"
+        />
+
+
+</RelativeLayout>
